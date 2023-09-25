@@ -1,0 +1,282 @@
+@charset "utf-8";
+
+html{
+    font-family: 'Inter', sans-serif;  
+}
+
+header{
+    height: 250px;
+    background-color: #5271FF;   
+    color: white;
+   
+}
+
+.main-title{
+    padding-top: 15px;
+    display:relative;
+    width: 30%;
+    font-size: 5rem;
+    line-height: 1;
+    font-weight: 900;
+    margin: 0 0 0 10%;    
+   
+}
+
+/* navegation bar */
+
+.menu{
+    float: right;
+    font-weight: 200;
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    margin: 5px;    
+}
+
+
+ul li a{
+  color: white;
+}
+
+/* search-bar */
+
+.search-bar{
+    display: inline-block; 
+    position: relative;
+    left: 10%;
+    bottom: 60%;
+}
+
+body{
+  background-color: white; 
+  margin: 0 10%;
+}
+
+
+main{
+    line-height: 2;
+    display: relative;
+    width:auto;
+
+}
+
+.image-home{
+    display: inline-block;
+    position: absolute;
+    top:20%;
+    left: 60%;
+    bottom: 40%;
+
+}
+
+.image-about-us{
+  
+    display: inline-block;
+    position: absolute;
+    top:30%;
+    left: 55%;
+    bottom: 40%;
+
+}
+
+.first-paragraph{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 1.1rem;
+    line-height: 2;
+    width:40%;
+}
+
+.about-paragraph{
+  position: relative;
+    margin-top: 50px;
+    margin-left: 10%;
+    font-size: 1.1rem;
+    line-height: 2;
+    width:40%;
+    padding: 20px;
+}
+
+.contact-paragraph{
+  position: relative;  
+  margin-left: 10%;
+  font-size: 1.1rem;
+  line-height: 2;
+  width:60%;
+}
+
+.quote{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 10%;
+    letter-spacing: 2px;
+}
+
+.regis-button{
+
+    position: relative;
+    margin-top: 70px;
+    margin-left: 150px;
+    background-color: #5271FF;
+    color: white;
+    border-radius: 5% / 50%;
+    width: 150px;
+    height: 40px;
+    top: 2px;
+    bottom: 2px;
+    right: -2px;
+    left: -2px;
+}
+
+/* Testimonial Section */
+
+/* sections */
+.colored-section{
+    width: 1200px;
+    margin-top: 10%; 
+    margin-left: 10%;  
+    text-align: center;
+ 
+  }
+ 
+  .testimonial-text {
+    font-size: 1.2rem;
+    line-height: 2;    
+  }
+  
+  .testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+}
+  
+
+/* features icons */
+.icon {
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+  
+  .feature-box {
+    padding: 5%;
+  }
+
+  /* features section */
+#features {
+    position: relative;
+    margin-top: 5%; 
+    text-align: center;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+
+ .blue-section{
+  margin-top: 0;
+  margin-left: 0;
+  background-color: #5271FF;
+  color: white;
+  
+ }
+
+.carousel-title{
+  font-size: 3.5rem;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 0;
+  width: 1200px;
+  text-align: center;
+}
+
+ .middle-title{
+  font-size: 3.5rem;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 0;
+  width: 1200px;
+  text-align: center;
+ }
+
+ .final-title{
+  font-size: 3.5rem;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 0;
+  width: 1200px;
+  text-align: center;
+ }
+
+ .contact-button{
+    position: relative;
+    /* margin-top: 5px; */
+    margin-left: 70%;
+    margin-bottom: 10%;
+    background-color: #5271FF;
+    color: white;
+    border-radius: 5% / 50%;
+    width: 150px;
+    height: 40px;
+    top: 2px;
+    bottom: 2px;
+    right: -2px;
+    left: -2px;
+ }
+
+
+ #features1{
+  font-size: small;
+  padding: 50px;
+ 
+ }
+
+
+ .end-message{
+  display: block;
+  margin: 0;
+  text-align: center;
+
+ }
+
+ .contact-form{
+  position: relative;    
+}
+
+ form input[type=text]{
+  background-color: bisque;
+  margin:10px 0;
+  border-color: bisque;
+  width: 500px;
+ }
+
+ form input[type=email]{
+  background-color: bisque;
+  margin:10px 0;
+  border-color: bisque;
+  width: 500px;
+ }
+
+ form textarea{
+  background-color: bisque;
+  margin:10px 0;
+  border-color: bisque;
+  width: 500px;
+ }
+
